@@ -1,0 +1,429 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4b00fc3b-c9af-4c22-98e1-5adbb173bad6")
+	(paper "A4")
+	(title_block
+		(date "2025-02-02")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 176.53 100.33) (xy 200.406 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12790aaf-a3b3-4bcb-9613-9a401d80627e")
+	)
+	(wire
+		(pts
+			(xy 176.53 92.71) (xy 200.406 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b097dd4-04d9-49ea-b92d-d5637aafadd4")
+	)
+	(wire
+		(pts
+			(xy 176.53 110.49) (xy 200.406 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "407705eb-451f-41ab-968f-34cbf686cb14")
+	)
+	(wire
+		(pts
+			(xy 200.406 104.648) (xy 176.53 104.648)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94de03bf-d2b4-4610-947b-d05d225cd330")
+	)
+	(wire
+		(pts
+			(xy 176.53 80.01) (xy 200.406 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a274e2ad-5f0e-41a6-868d-0079aca68eea")
+	)
+	(wire
+		(pts
+			(xy 176.53 76.2) (xy 200.406 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b91f92d0-6e03-41ef-9c91-57d3f5251a1b")
+	)
+	(wire
+		(pts
+			(xy 200.406 96.52) (xy 176.53 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa93ca3-7a8a-4fa3-8472-cef66036222d")
+	)
+	(wire
+		(pts
+			(xy 176.53 88.9) (xy 200.406 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce9cefc5-7d81-45d5-8114-c2bcde8a6bbd")
+	)
+	(wire
+		(pts
+			(xy 176.53 85.09) (xy 200.406 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c80ba0-62be-4de1-9b08-a04ddac5bd5e")
+	)
+	(text "Buck Converter\n"
+		(exclude_from_sim no)
+		(at 74.422 122.428 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "885c9830-6524-47f7-a6cc-42e460196109")
+	)
+	(text "PIC16_F887\n"
+		(exclude_from_sim no)
+		(at 148.336 67.818 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "9f4cdf60-a803-4673-8a33-25d6ef56a1e4")
+	)
+	(sheet
+		(at 200.406 71.374)
+		(size 20.32 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 49 15 255 1.0000)
+		)
+		(uuid "0baf26b2-0c14-4d19-8747-b6c573eda299")
+		(property "Sheetname" "HEADER"
+			(at 200.406 70.6624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "header.kicad_sch"
+			(at 200.406 120.2186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" output
+			(at 200.406 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c24c87cd-a493-4ace-bc4b-18f9ad041aac")
+		)
+		(pin "SDA" output
+			(at 200.406 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "067fa611-c782-4f0c-90fd-81057213902c")
+		)
+		(pin "ECHO" output
+			(at 200.406 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "adb233fa-a20a-4f4c-8c80-d9bd3f442a2c")
+		)
+		(pin "TRIG" output
+			(at 200.406 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6ce7c93e-6720-49cd-8c3a-3067d964e5e9")
+		)
+		(pin "IPS_DAT" output
+			(at 200.406 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0084cb6c-1074-4a51-9430-40ff1f509a74")
+		)
+		(pin "IPS_CLK" output
+			(at 200.406 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7ded8c4e-affb-42da-9d4b-2dea6676efd4")
+		)
+		(pin "TX" output
+			(at 200.406 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bad20d9f-379c-4203-ac32-e27e5bb4c7c9")
+		)
+		(pin "RX" output
+			(at 200.406 104.648 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bf2a6a75-5f96-4c3e-8b7a-e82c40c54f15")
+		)
+		(pin "LAZZER" input
+			(at 200.406 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "22abe812-e936-408e-81b8-a62edacfbd26")
+		)
+		(instances
+			(project "Hoang_Trung_An_BTL"
+				(path "/4b00fc3b-c9af-4c22-98e1-5adbb173bad6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 126.238 55.118)
+		(size 50.292 67.564)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 66 255 93 1.0000)
+		)
+		(uuid "ddbdfd9d-606d-436d-ad79-8136e9f0be35")
+		(property "Sheetname" "MCU"
+			(at 126.238 54.4064 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_PIC16F887.kicad_sch"
+			(at 126.238 123.2666 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" input
+			(at 176.53 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "87b576f9-8d55-472e-afcd-1fd5b3bd4758")
+		)
+		(pin "SCL" input
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b8bdb4fc-1d76-4ff0-be47-d7862b36510e")
+		)
+		(pin "IPS_DAT" input
+			(at 176.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d5bba766-a44a-44f9-bfac-6e9f94c62ae0")
+		)
+		(pin "IPS_CLK" input
+			(at 176.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a6dabc14-863f-4896-a4c6-5ad284cf05d7")
+		)
+		(pin "TRIG" input
+			(at 176.53 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "08ce0aff-1bf2-4fd2-b0a1-ff9c144ebb03")
+		)
+		(pin "ECHO" input
+			(at 176.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "431ab8df-5820-42c4-9ae0-d95cec30154e")
+		)
+		(pin "RX" input
+			(at 176.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e6646f4d-ffc9-4410-ac3d-fc525bf1d45d")
+		)
+		(pin "TX" input
+			(at 176.53 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fb9ae1c6-27b8-471d-ba59-8a8066e7074b")
+		)
+		(pin "LAZZER" output
+			(at 176.53 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e0402a7a-7d10-4a6a-a721-8225166f2bfd")
+		)
+		(instances
+			(project "Hoang_Trung_An_BTL"
+				(path "/4b00fc3b-c9af-4c22-98e1-5adbb173bad6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 106.68)
+		(size 29.718 30.988)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 4 1.0000)
+		)
+		(uuid "f612fb47-ce8b-4e29-9031-6593d55a9522")
+		(property "Sheetname" "POWER"
+			(at 59.69 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 59.69 138.2526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hoang_Trung_An_BTL"
+				(path "/4b00fc3b-c9af-4c22-98e1-5adbb173bad6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

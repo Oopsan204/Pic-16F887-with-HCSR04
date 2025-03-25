@@ -1,0 +1,152 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      The target system is: Generic -  - 
+      The host system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/ST/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/ST/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Users/Lenovo/.utils/llvm-mingw/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/build/CMakeFiles/3.28.1/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/ST/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      clang version 19.1.0-rc3 (https://github.com/llvm/llvm-project.git 437434df21d839becb453f6821564662e9824f02)
+      Target: x86_64-w64-windows-gnu
+      Thread model: posix
+      InstalledDir: C:/Users/Lenovo/.utils/llvm-mingw/bin
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/ST/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple (clang|LLVM) version)":
+      clang version 19.1.0-rc3 (https://github.com/llvm/llvm-project.git 437434df21d839becb453f6821564662e9824f02)
+      Target: x86_64-w64-windows-gnu
+      Thread model: posix
+      InstalledDir: C:/Users/Lenovo/.utils/llvm-mingw/bin
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1131 (message)"
+      - "C:/ST/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Checking whether the ASM compiler is Clang using "--version" matched "(clang version)":
+      clang version 19.1.0-rc3 (https://github.com/llvm/llvm-project.git 437434df21d839becb453f6821564662e9824f02)
+      Target: x86_64-w64-windows-gnu
+      Thread model: posix
+      InstalledDir: C:/Users/Lenovo/.utils/llvm-mingw/bin
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/ST/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:18 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/build/CMakeFiles/CMakeScratch/TryCompile-f9gu02"
+      binary: "E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/build/CMakeFiles/CMakeScratch/TryCompile-f9gu02"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/build/CMakeFiles/CMakeScratch/TryCompile-f9gu02'
+        
+        Run Build Command(s): C:/ST/STM32CubeCLT_1.16.0/CMake/bin/cmake.exe -E env VERBOSE=1 C:/Users/Lenovo/.utils/llvm-mingw/bin/mingw32-make.exe -f Makefile cmTC_e0707/fast
+        C:/Users/Lenovo/.utils/llvm-mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e0707.dir\\build.make CMakeFiles/cmTC_e0707.dir/build
+        mingw32-make[1]: Entering directory 'E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/build/CMakeFiles/CMakeScratch/TryCompile-f9gu02'
+        Building C object CMakeFiles/cmTC_e0707.dir/CMakeCCompilerABI.c.obj
+        C:\\Users\\Lenovo\\.utils\\llvm-mingw\\bin\\clang.exe   -v -MD -MT CMakeFiles/cmTC_e0707.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_e0707.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_e0707.dir\\CMakeCCompilerABI.c.obj -c C:\\ST\\STM32CubeCLT_1.16.0\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c
+        clang version 19.1.0-rc3 (https://github.com/llvm/llvm-project.git 437434df21d839becb453f6821564662e9824f02)
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:/Users/Lenovo/.utils/llvm-mingw/bin
+         (in-process)
+         "C:/Users/Lenovo/.utils/llvm-mingw/bin/clang-19.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/build/CMakeFiles/CMakeScratch/TryCompile-f9gu02 -v -fcoverage-compilation-dir=E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/build/CMakeFiles/CMakeScratch/TryCompile-f9gu02 -resource-dir C:/Users/Lenovo/.utils/llvm-mingw/lib/clang/19 -dependency-file "CMakeFiles\\\\cmTC_e0707.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_e0707.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/Users/Lenovo/.utils/llvm-mingw/lib/clang/19/include -internal-isystem C:/Users/Lenovo/.utils/llvm-mingw/x86_64-w64-mingw32/include -internal-isystem C:/Users/Lenovo/.utils/llvm-mingw/x86_64-w64-mingw32/usr/include -internal-isystem C:/Users/Lenovo/.utils/llvm-mingw/include -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o "CMakeFiles\\\\cmTC_e0707.dir\\\\CMakeCCompilerABI.c.obj" -x c "C:\\\\ST\\\\STM32CubeCLT_1.16.0\\\\CMake\\\\share\\\\cmake-3.28\\\\Modules\\\\CMakeCCompilerABI.c"
+        clang -cc1 version 19.1.0-rc3 based upon LLVM 19.1.0-rc3 default target x86_64-w64-mingw32
+        ignoring nonexistent directory "C:/Users/Lenovo/.utils/llvm-mingw/x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/Users/Lenovo/.utils/llvm-mingw/x86_64-w64-mingw32/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/Lenovo/.utils/llvm-mingw/lib/clang/19/include
+         C:/Users/Lenovo/.utils/llvm-mingw/include
+        End of search list.
+        Linking C executable cmTC_e0707
+        C:\\ST\\STM32CubeCLT_1.16.0\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_e0707.dir\\link.txt --verbose=1
+        C:\\Users\\Lenovo\\.utils\\llvm-mingw\\bin\\clang.exe  -v CMakeFiles/cmTC_e0707.dir/CMakeCCompilerABI.c.obj -o cmTC_e0707 
+        clang version 19.1.0-rc3 (https://github.com/llvm/llvm-project.git 437434df21d839becb453f6821564662e9824f02)
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:/Users/Lenovo/.utils/llvm-mingw/bin
+         "C:/Users/Lenovo/.utils/llvm-mingw/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_e0707.exe C:/Users/Lenovo/.utils/llvm-mingw/x86_64-w64-mingw32/lib/crt2.o C:/Users/Lenovo/.utils/llvm-mingw/x86_64-w64-mingw32/lib/crtbegin.o -LC:/Users/Lenovo/.utils/llvm-mingw/x86_64-w64-mingw32/lib -LC:/Users/Lenovo/.utils/llvm-mingw/x86_64-w64-mingw32/mingw/lib -LC:/Users/Lenovo/.utils/llvm-mingw/lib -LC:/Users/Lenovo/.utils/llvm-mingw/lib/clang/19/lib/windows CMakeFiles/cmTC_e0707.dir/CMakeCCompilerABI.c.obj -lmingw32 C:/Users/Lenovo/.utils/llvm-mingw/lib/clang/19/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/Users/Lenovo/.utils/llvm-mingw/lib/clang/19/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Lenovo/.utils/llvm-mingw/x86_64-w64-mingw32/lib/crtend.o
+        mingw32-make[1]: Leaving directory 'E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/build/CMakeFiles/CMakeScratch/TryCompile-f9gu02'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/ST/STM32CubeCLT_1.16.0/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:18 (project)"
+    checks:
+      - "Check for working C compiler: C:/Users/Lenovo/.utils/llvm-mingw/bin/clang.exe"
+    directories:
+      source: "E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/build/CMakeFiles/CMakeScratch/TryCompile-vewbr0"
+      binary: "E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/build/CMakeFiles/CMakeScratch/TryCompile-vewbr0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/build/CMakeFiles/CMakeScratch/TryCompile-vewbr0'
+        
+        Run Build Command(s): C:/ST/STM32CubeCLT_1.16.0/CMake/bin/cmake.exe -E env VERBOSE=1 C:/Users/Lenovo/.utils/llvm-mingw/bin/mingw32-make.exe -f Makefile cmTC_b82ae/fast
+        C:/Users/Lenovo/.utils/llvm-mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b82ae.dir\\build.make CMakeFiles/cmTC_b82ae.dir/build
+        mingw32-make[1]: Entering directory 'E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/build/CMakeFiles/CMakeScratch/TryCompile-vewbr0'
+        Building C object CMakeFiles/cmTC_b82ae.dir/testCCompiler.c.obj
+        C:\\Users\\Lenovo\\.utils\\llvm-mingw\\bin\\clang.exe    -MD -MT CMakeFiles/cmTC_b82ae.dir/testCCompiler.c.obj -MF CMakeFiles\\cmTC_b82ae.dir\\testCCompiler.c.obj.d -o CMakeFiles\\cmTC_b82ae.dir\\testCCompiler.c.obj -c E:\\hoctap\\nam3_ky2\\vi_dieu_khien\\btl\\BTL_HoangTrungAn.X\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vewbr0\\testCCompiler.c
+        Linking C executable cmTC_b82ae
+        C:\\ST\\STM32CubeCLT_1.16.0\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_b82ae.dir\\link.txt --verbose=1
+        C:\\Users\\Lenovo\\.utils\\llvm-mingw\\bin\\clang.exe CMakeFiles/cmTC_b82ae.dir/testCCompiler.c.obj -o cmTC_b82ae 
+        mingw32-make[1]: Leaving directory 'E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/build/CMakeFiles/CMakeScratch/TryCompile-vewbr0'
+        
+      exitCode: 0
+...

@@ -1,0 +1,276 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "BTL_HoangTrungAn_default_default.elf"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include",
+			"target_link_options",
+			"BTL_HoangTrungAn_default_link_rule",
+			"target_compile_definitions"
+		],
+		"files" : 
+		[
+			".generated/main.cmake",
+			"CMakeLists.txt",
+			".generated/rule.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 136,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 137,
+				"parent" : 4
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "BTL_HoangTrungAn_default_default_XC8_compile::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "BTL_HoangTrungAn_default_default.elf::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,-Map=mem.map",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mcpu=16F887",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,--defsym=__MPLAB_BUILD=1",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mdfp=C:/Users/Lenovo/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-fno-short-double",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-fno-short-float",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-O0",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-fasmfile",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-maddrqual=ignore",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mwarn=-3",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wa,-a",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-msummary=-psect,-class,+mem,-hex,-file",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-ginhx32",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,--data-init",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mno-keep-startup",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mno-osccal",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-moscval=0x3400",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mno-resetbits",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mno-save-resetbits",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mno-download",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mno-stackcall",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mno-default-config-bits",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-std=c99",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-gdwarf-3",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mstack=compiled:auto:auto:auto",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,--memorysummary,memoryfile.xml",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "BTL_HoangTrungAn_default_default.elf",
+	"nameOnDisk" : "BTL_HoangTrungAn_default_default.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/_build/BTL_HoangTrungAn/default/CMakeFiles/BTL_HoangTrungAn_default_default_XC8_compile.dir/E_/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/BUZZER.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/_build/BTL_HoangTrungAn/default/CMakeFiles/BTL_HoangTrungAn_default_default_XC8_compile.dir/E_/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/I2C_LCD.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/_build/BTL_HoangTrungAn/default/CMakeFiles/BTL_HoangTrungAn_default_default_XC8_compile.dir/E_/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/UART.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/_build/BTL_HoangTrungAn/default/CMakeFiles/BTL_HoangTrungAn_default_default_XC8_compile.dir/735b15455e48f8471570afa092c20b62/build/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/_build/BTL_HoangTrungAn/default/CMakeFiles/BTL_HoangTrungAn_default_default_XC8_compile.dir/E_/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/main.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/_build/BTL_HoangTrungAn/default/CMakeFiles/BTL_HoangTrungAn_default_default_XC8_compile.dir/E_/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/software_PWM.c.p1",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

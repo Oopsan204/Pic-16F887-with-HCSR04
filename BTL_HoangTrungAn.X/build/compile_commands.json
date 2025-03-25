@@ -1,0 +1,20 @@
+[
+{
+  "directory": "E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/build",
+  "command": "C:\\Users\\Lenovo\\.utils\\llvm-mingw\\bin\\clang.exe   -g -mcpu=16F887 -c -mdfp=C:/Users/Lenovo/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8 -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -mwarn=-3 -Wa,-a -DXPRJ_default=default -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -moscval=0x3400 -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\BTL_HoangTrungAn_default_compile.dir\\E_\\hoctap\\nam3_ky2\\vi_dieu_khien\\btl\\BTL_HoangTrungAn.X\\main.c.obj -c E:\\hoctap\\nam3_ky2\\vi_dieu_khien\\btl\\BTL_HoangTrungAn.X\\main.c",
+  "file": "E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/main.c",
+  "output": "CMakeFiles/BTL_HoangTrungAn_default_compile.dir/E_/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/main.c.obj"
+},
+{
+  "directory": "E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/build",
+  "command": "C:\\Users\\Lenovo\\.utils\\llvm-mingw\\bin\\clang.exe   -g -mcpu=16F887 -c -mdfp=C:/Users/Lenovo/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8 -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -mwarn=-3 -Wa,-a -DXPRJ_default=default -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -moscval=0x3400 -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\BTL_HoangTrungAn_default_compile.dir\\E_\\hoctap\\nam3_ky2\\vi_dieu_khien\\btl\\BTL_HoangTrungAn.X\\I2C_LCD.c.obj -c E:\\hoctap\\nam3_ky2\\vi_dieu_khien\\btl\\BTL_HoangTrungAn.X\\I2C_LCD.c",
+  "file": "E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/I2C_LCD.c",
+  "output": "CMakeFiles/BTL_HoangTrungAn_default_compile.dir/E_/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/I2C_LCD.c.obj"
+},
+{
+  "directory": "E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/build",
+  "command": "C:\\Users\\Lenovo\\.utils\\llvm-mingw\\bin\\clang.exe   -g -mcpu=16F887 -c -mdfp=C:/Users/Lenovo/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8 -fno-short-double -fno-short-float -memi=wordwrite -O0 -fasmfile -maddrqual=ignore -mwarn=-3 -Wa,-a -DXPRJ_default=default -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -moscval=0x3400 -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\BTL_HoangTrungAn_default_compile.dir\\CMakeFiles\\3.28.1\\CompilerIdC\\CMakeCCompilerId.c.obj -c E:\\hoctap\\nam3_ky2\\vi_dieu_khien\\btl\\BTL_HoangTrungAn.X\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CMakeCCompilerId.c",
+  "file": "E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/build/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c",
+  "output": "CMakeFiles/BTL_HoangTrungAn_default_compile.dir/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c.obj"
+}
+]

@@ -1,0 +1,100 @@
+{
+    "importedFrom": "file:///e:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X",
+    "version": "1.3",
+    "configurations": [
+        {
+            "name": "default",
+            "id": "conf1",
+            "targetDevice": "PIC16F887",
+            "imageType": "application",
+            "imagePath": "./out/BTL_HoangTrungAn/default.elf",
+            "platformTool": "default-tool-base",
+            "packs": [
+                {
+                    "name": "PIC16Fxxx_DFP",
+                    "vendor": "Microchip",
+                    "version": "1.6.156"
+                }
+            ],
+            "fileSet": "MPLAB X Virtual Filesystem",
+            "toolchain": "default-XC8"
+        }
+    ],
+    "propertyGroups": [
+        {
+            "name": "default-XC8",
+            "type": "toolchain",
+            "provider": "microchip.toolchains:xc8@2.50",
+            "properties": {
+                "XC8-config-global.constdata-progmem": true,
+                "HI-TECH-COMP.asmlist": true,
+                "HI-TECH-COMP.optimization-assembler-files": true,
+                "HI-TECH-COMP.tentative-definitions": "-fno-common",
+                "HI-TECH-LINK.input-libraries": [
+                    "libm"
+                ]
+            }
+        },
+        {
+            "name": "-tool-base",
+            "type": "tool",
+            "properties": {}
+        }
+    ],
+    "fileSets": [
+        {
+            "name": "Header Files"
+        },
+        {
+            "name": "Linker Files"
+        },
+        {
+            "name": "Source Files",
+            "files": [
+                "main.c"
+            ],
+            "encoding": "ISO-8859-1"
+        },
+        {
+            "name": "Important Files",
+            "files": [
+                "Makefile"
+            ],
+            "encoding": "ISO-8859-1"
+        },
+        {
+            "name": "MPLAB X Virtual Filesystem",
+            "files": [
+                {
+                    "fileSet": "Header Files"
+                },
+                {
+                    "fileSet": "Linker Files"
+                },
+                {
+                    "fileSet": "Source Files"
+                },
+                {
+                    "fileSet": "Important Files"
+                },
+                "I2C_LCD.c",
+                "I2C_LCD.h",
+                "build/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c",
+                "build/CMakeFiles/CMakeScratch/TryCompile-vewbr0/testCCompiler.c",
+                "build/CMakeFiles/BTL_HoangTrungAn_default_compile.dir/E_/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X",
+                "UART.h",
+                "UART.c",
+                "PMW.h",
+                "PMW.c",
+                "dd.h",
+                "pic16f877.h",
+                "software_PWM.h",
+                "software_PWM.c",
+                "das.c",
+                "BUZZER.h",
+                "BUZZER.c"
+            ],
+            "encoding": "ISO-8859-1"
+        }
+    ]
+}

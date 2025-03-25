@@ -1,0 +1,48 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "Clang",
+				"implicit" : {},
+				"path" : "C:/Users/Lenovo/.utils/llvm-mingw/bin/clang.exe",
+				"version" : ""
+			},
+			"language" : "ASM",
+			"sourceFileExtensions" : 
+			[
+				"s",
+				"S",
+				"asm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "Clang",
+				"implicit" : 
+				{
+					"includeDirectories" : [],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "C:/Users/Lenovo/.utils/llvm-mingw/bin/clang.exe",
+				"version" : "19.1.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,108 @@
+@startuml
+title HC-SR04 Ultrasonic Distance Sensor Process Flow
+
+start
+
+partition "Initialization" {
+  :Initialize UART;
+  :Initialize I2C_LCD;
+  :Initialize Buzzer;
+  :Initialize HC-SR04;
+  note right
+    - Set TRIG as output
+    - Set ECHO as input
+    - Configure interrupt
+    - Initialize Timer1
+  end note
+}
+
+partition "Main Processing Loop" {
+  while (Main Loop) is (running)
+    partition "Distance Measurement" {
+      :Reset measurement variables;
+      :Initialize measurement array;
+      
+      repeat
+        :Reset echo_state and echo_complete;
+        :Send trigger pulse;
+        note right
+          - 10μs HIGH pulse
+          - Starts ultrasonic burst
+        end note
+        
+        :Wait for echo (with timeout);
+        
+        if (Valid measurement?) then (yes)
+          :Store measurement;
+          :Increment valid readings count;
+        else (no)
+          :Discard reading;
+        endif
+        
+        :Delay 20ms;
+      repeat while (Count < 20) is (no) not (yes)
+      
+      :Calculate average distance;
+      
+      if (valid_readings > 0) then (yes)
+        :distn = sum / valid_readings;
+      else (no)
+        :distn = 0;
+      endif
+      
+      :Apply filtering;
+      note right
+        Cap maximum reading at 350cm
+      end note
+    }
+    
+    partition "Output Processing" {
+      :Clear LCD line;
+      
+      if (distn == 0) then (yes)
+        :Display "No reading" on LCD;
+        :Send error message via UART;
+        :Buzzer error beep (500ms);
+      else (valid reading)
+        :Format distance string;
+        :Display distance on LCD;
+        :Send distance via UART;
+        
+        if (distn > 380) then (yes)
+          :Display "Max range" message;
+          :Single beep (300ms);
+        elseif (distn < 10) then (yes)
+          :Triple beep (very close);
+        elseif (distn < 30) then (yes)
+          :Double beep (close);
+        else (normal range)
+          :Single beep (150ms);
+        endif
+      endif
+    }
+  endwhile (stop)
+}
+
+partition "Interrupt Handling" {
+  :Interrupt triggered on ECHO pin change;
+  
+  if (Rising edge?) then (yes)
+    :Reset Timer1;
+    :Start Timer1;
+    :echo_state = 1;
+  else (falling edge)
+    :Stop Timer1;
+    :Calculate distance;
+    note right
+      distance = timer_value / 174
+      (for 12MHz crystal)
+    end note
+    :echo_state = 0;
+    :echo_complete = 1;
+  endif
+  
+  :Clear interrupt flag;
+}
+
+stop
+@enduml

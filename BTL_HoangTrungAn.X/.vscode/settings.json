@@ -1,0 +1,17 @@
+{
+    "mplab.clangd.arguments": [
+        "--compile-commands-dir=e:\\hoctap\\nam3_ky2\\vi_dieu_khien\\btl\\BTL_HoangTrungAn.X\\_build\\BTL_HoangTrungAn\\default"
+    ],
+    "files.associations": {
+        "*.c": "c",
+        "i2c_driver.h": "c",
+        "i2c_lcd.h": "c",
+        "hcsr04_lib.h": "c",
+        "fucsionmacro.h": "c",
+        "iterator": "c"
+    },
+    "mplab.project.workspace.addNewSourceFiles": "Always",
+    "mplab.project.workspace.removeDeletedSourceFiles": "Always",
+    "mplab.clangd.path": "",
+    "cmake.sourceDirectory": "E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/cmake/BTL_HoangTrungAn/default"
+}

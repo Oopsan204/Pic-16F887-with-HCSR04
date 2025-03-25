@@ -1,0 +1,13 @@
+# ninja log v6
+15	622	7634801437235200	CMakeFiles/BTL_HoangTrungAn_default_default_XC8_compile.dir/E_/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/UART.c.p1	b309ef609e9a79e1
+9	637	7634801437181425	CMakeFiles/BTL_HoangTrungAn_default_default_XC8_compile.dir/E_/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/I2C_LCD.c.p1	e0eec2917dcf82c1
+21	663	7634801437297737	CMakeFiles/BTL_HoangTrungAn_default_default_XC8_compile.dir/735b15455e48f8471570afa092c20b62/build/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c.p1	8fe2b80264ce1ecf
+4	677	7634801437120332	CMakeFiles/BTL_HoangTrungAn_default_default_XC8_compile.dir/E_/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/BUZZER.c.p1	2bf715712e39d5fe
+39	734	7634801437477268	CMakeFiles/BTL_HoangTrungAn_default_default_XC8_compile.dir/E_/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/software_PWM.c.p1	beb0f5dbed0b39fb
+19	352	7634803631090662	CMakeFiles/BTL_HoangTrungAn_default_default_XC8_compile.dir/E_/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/main.c.p1	4d67c8f15b3d31e0
+61	469	7645927323771459	CMakeFiles/BTL_HoangTrungAn_default_default_XC8_compile.dir/735b15455e48f8471570afa092c20b62/build/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c.p1	8fe2b80264ce1ecf
+58	482	7645927323734752	CMakeFiles/BTL_HoangTrungAn_default_default_XC8_compile.dir/E_/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/UART.c.p1	b309ef609e9a79e1
+50	486	7645927323662978	CMakeFiles/BTL_HoangTrungAn_default_default_XC8_compile.dir/E_/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/BUZZER.c.p1	2bf715712e39d5fe
+55	486	7645927323709569	CMakeFiles/BTL_HoangTrungAn_default_default_XC8_compile.dir/E_/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/I2C_LCD.c.p1	e0eec2917dcf82c1
+67	495	7645927323825606	CMakeFiles/BTL_HoangTrungAn_default_default_XC8_compile.dir/E_/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/main.c.p1	4d67c8f15b3d31e0
+73	506	7645927323895573	CMakeFiles/BTL_HoangTrungAn_default_default_XC8_compile.dir/E_/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/software_PWM.c.p1	beb0f5dbed0b39fb

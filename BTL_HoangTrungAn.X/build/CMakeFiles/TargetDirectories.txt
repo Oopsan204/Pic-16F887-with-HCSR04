@@ -1,0 +1,4 @@
+E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/build/CMakeFiles/BTL_HoangTrungAn_default_compile.dir
+E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/build/CMakeFiles/BTL_HoangTrungAn_default_default.elf.dir
+E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/build/CMakeFiles/edit_cache.dir
+E:/hoctap/nam3_ky2/vi_dieu_khien/btl/BTL_HoangTrungAn.X/build/CMakeFiles/rebuild_cache.dir
